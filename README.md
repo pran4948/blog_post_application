@@ -24,3 +24,7 @@ Features offered by this website-
 7.Update or delete your post.
 8.User is able to see posts done by other users (but edit only your their own posts)
 </pre>
+<pre>More exciting features will be added soon in the coming version.
+</pre>
+
+For more updated information, kindly follow me on LinkedIn.

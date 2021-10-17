@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# this is a python script for devloper.
 # In[2]:
 
 

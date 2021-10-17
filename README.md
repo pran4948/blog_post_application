@@ -27,4 +27,9 @@ Features offered by this website-
 <pre>More exciting features will be added soon in the coming version.
 </pre>
 
+<h2>Running the project locally</h2>
+1. You should install python3 in your machine
+2. After cloning the repository run the command pip install -r requirements.txt
+3. Run command python manage.py runserver
+
 For more updated information, kindly follow me on LinkedIn.

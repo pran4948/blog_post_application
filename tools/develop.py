@@ -37,7 +37,7 @@ def dfs(graph, source):
                 S.append(u)
                 visited_vertices.append(u)
  
-print("DFS traversal of graph with source 'A' is:")
+print("DFS traversal completed:")
 dfs(graph, 'A')
 
 

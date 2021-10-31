@@ -30,6 +30,7 @@ class UserPostListView(ListView):
 class PostDetailView(DetailView):
     model = Post
 
+#This class will help you to create the post
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
     fields = ['title', 'content']
@@ -38,6 +39,7 @@ class PostCreateView(LoginRequiredMixin, CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
+#This class will help you to update the post
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
     fields = ['title', 'content']
@@ -52,6 +54,7 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
             return True
         return False
 
+#This class will help you to delete the post
 class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Post
     success_url = '/'
